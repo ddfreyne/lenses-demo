@@ -5,10 +5,10 @@ import { PersonForm } from "./PersonForm";
 
 import "./styles.css";
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById("lenses-demo-root");
 
 ReactDOM.render(
-  <div className="root">
+  <div className="lenses-demo">
     <React.StrictMode>
       <PersonForm />
     </React.StrictMode>
